@@ -1,0 +1,10 @@
+a:link {
+    color:  #433d3d;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(161, 97, 109);
+    background-color: transparent;
+    text-decoration: underline;
+  }

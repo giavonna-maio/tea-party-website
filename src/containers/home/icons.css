@@ -1,0 +1,19 @@
+.icon-box {
+    background-color: #fae9f3;
+    margin-top: 100px;
+    display: flex;
+
+  }
+  .icons {
+    font-size: 1rem;
+    margin-left: 9rem;
+    display: flex;
+    align-items: center;
+
+  }
+  .icon-text {
+    font-family: "Great Vibes";
+    font-size: 20px;
+    margin-left: 5px;
+    padding-top: 5px;
+  }

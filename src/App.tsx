@@ -1,4 +1,4 @@
-import  { Home } from "./containers/home-page";
+import  { Home } from "./containers/home/home-page.tsx";
 
 function App() {
   return (

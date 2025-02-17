@@ -1,0 +1,81 @@
+.menu-icon-link a {
+    text-decoration: none;
+    color: #333;
+    /* Additional hover effects, fonts, etc. */
+}
+
+.menu-icon-link {
+    color: #433d3d;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+
+.menu-toggle {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: inherit;
+    /* Inherit from parent, or set your own color */
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+}
+
+
+.drawer {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 250px;
+    height: 100%;
+    background: #fbb2cb;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: right 0.3s ease;
+    padding: 1rem;
+    z-index: 999;
+}
+
+.drawer.open {
+    right: 0;
+}
+
+.close-btn {
+    color: #433d3d;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+}
+
+.drawer-nav ul {
+    font-family: 'Great Vibes';
+    font-size: 1.5rem;
+    list-style: none;
+    padding: 30px;
+}
+
+.drawer-nav li {
+    margin-bottom: 1rem;
+}
+
+.drawer-nav a {
+    text-decoration: none;
+    color: #433d3d;
+}
+
+.drawer-nav a:hover {
+    text-decoration: wavy underline;
+    color: rgb(161, 97, 109);
+}
+
+button:hover {
+    text-decoration: wavy underline;
+    color: rgb(161, 97, 109);
+}
