@@ -8,7 +8,7 @@ export const Home = () => {
 
     return (
 
-        <div className="home-container">
+        <div id="Home" className="home-container">
             <div className="top-banner fade-in">
                 <h1 className="welcome-message">The Traveling Tea Cup</h1>
                 <h2 className="special-message">For Special Moments</h2>

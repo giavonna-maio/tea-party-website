@@ -3,7 +3,41 @@
     color: #333;
     /* Additional hover effects, fonts, etc. */
 }
-
+.tab-content {
+    padding: 2rem;
+    background-color: #f8f8f8; /* light background color */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-top: 2rem;        /* space above the content */
+    max-width: 1200px;       /* optional, to constrain width on large screens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    /* Optionally center the container */
+    margin-left: auto;
+    margin-right: auto;
+}
+  /* Hide all tab panels by default */
+  .tab-panel {
+    display: none;
+  }
+  
+  /* Show the active tab panel */
+  .tab-panel.active {
+    display: block;
+  }
+  
+  /* Optional: Add a fade-in effect for smoother transitions */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .tab-panel.active {
+    animation: fadeIn 0.3s ease-out;
+  }
+  
 .menu-icon-link {
     color: #433d3d;
     position: absolute;
