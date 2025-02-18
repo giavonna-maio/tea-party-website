@@ -2,18 +2,10 @@ import "./home-styles.css";
 import "./icons.css";
 import "../links.css";
 import "./menu-drawer.css";
-import { Menu } from "./menu-drawer";
 
 export const Home = () => {
 
     return (
-
-        <div id="Home" className="home-container">
-            <div className="top-banner fade-in">
-                <h1 className="welcome-message">The Traveling Tea Cup</h1>
-                <h2 className="special-message">For Special Moments</h2>
-                        <Menu />
-            </div>
             <div className="icon-box">
                 <div className="icons">
                     <i className="fa-brands fa-instagram"></i>
@@ -36,7 +28,6 @@ export const Home = () => {
                     <p className="icon-text">We come to you!</p>
                 </div>
             </div>
-        </div>
 
     );
 
