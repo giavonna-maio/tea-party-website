@@ -1,4 +1,4 @@
-import { Menu } from "./menu-drawer";
+import { Menu } from "../../components/menu-drawer";
 import "./home-styles.css";
 
 export const Banner = () => {
